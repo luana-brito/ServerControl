@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ServerControl</title>
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-32x32.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+</head>
+<body>
+  <div class="header">
+    <img src="/img/logoMini.png" alt="Logo" class="logo">
+  </div>
+  <div class="conteudo">
+    <p>Detecção de Movimento</p>
+    <iframe src="https://embed.tago.io?widget=65773ac942fc8b0009b118bc&dashboard=657734eb7ac24d0009b644a8&token=14b8aa7a-0b6c-4565-88bf-e9faf8b559aa" width="100%" height="30%"></iframe>
+    <p>Quantidade de Movimento</p>
+    <iframe src="https://embed.tago.io?widget=657748a8364ab7000919da9d&dashboard=657734eb7ac24d0009b644a8&token=3d99549f-3696-488f-9fb6-a208f9e57c1c" width="100%" height="500px"></iframe><br><br>
+    <div class="botoes">
+      <button id="relatorio" onclick="redirectPage('relatorio.html')">Relatórios detalhados</button>
+      <!--<button id="alerta" onclick="redirectPage('alerta.html')">Alertas</button>-->
+    </div>
+    <br><br>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="/index.html">Sair</a></li>
+    </ul>
+  </div>
+  <script src="/js/home.js"></script>
+</body>
+</html>
